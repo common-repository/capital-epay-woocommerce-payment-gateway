@@ -1,0 +1,111 @@
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
+#add_payment_method #payment div.payment_box .wc-credit-card-form-card-number.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-cvc.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-expiry.visa,
+.woocommerce-cart #payment div.payment_box .wc-credit-card-form-card-number.visa,
+.wc-credit-card-form-card-cvc.visa,
+.wc-credit-card-form-card-expiry.visa,
+.wc-credit-card-form-card-number.visa {
+	background-image: url(/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/visa.svg);
+}
+
+.wc-credit-card-form-card-number.mastercard {
+	background-image: url(/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/mastercard.svg);
+}
+
+.wc-credit-card-form-card-number.discover {
+	background-image: url(/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/discover.svg);
+}
+
+.wc-credit-card-form-card-number.amex {
+	background-image: url(/wp-content/plugins/woocommerce/assets/images/icons/credit-cards/amex.svg);
+}
+
+.wc-credit-card-form-card-number {
+	font-size: 1.5em !important;
+	padding: 8px !important;
+	background-repeat: no-repeat !important;
+	background-position: right .618em center !important;
+	background-size: 32px 20px !important;
+}
+
+.visual-form-builder fieldset {
+	clear: both;
+	margin: 15px 0;
+	padding: 0;
+	border: 1px solid #d3d3d3;
+	border-radius: 3px;
+	background-color: rgba(250, 250, 250, 0.6);
+}
+
+.cepay-credit-card-form-card-number {
+	font-size: 1.5em;
+	padding: 8px;
+	background-repeat: no-repeat;
+	background-position: right .618em center;
+	background-size: 32px 20px;
+}
+
+.cepay-saved-card-container {
+	padding: 6px 0 26px 0;
+}
+
+.cepay-saved-card {
+	display: flex;
+	padding: 13px 0 13px 0;
+}
+
+.cepay-card-radio {
+	margin-right: 12px;
+}
+
+.cepay-saved-card img {
+	width: 33px;
+	height: 20px !important;
+}
+
+.cepay-saved-card-text {
+	line-height: 1;
+	font-size: 16px;
+	font-family: monospace;
+}
+
+.cepay-saved-card-text {
+	line-height: 1.3;
+	font-size: 16px;
+	font-family: monospace;
+	color: #4f4e4e;
+	padding-left: 8px;
+}
+
+.cepay-manage-payment-methods-title {
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	float: left;
+	font-weight: 800;
+	line-height: 1;
+}
+
+.cepay-manage-payment-methods-btn {
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13px;
+	float: right;
+}
+
+ul.woocommerce-PaymentMethods.payment_methods.methods {
+	list-style: none;
+}
+
+label.cepay_save_card_label {
+    font-size: 13px;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
